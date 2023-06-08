@@ -1,13 +1,41 @@
 
-## Predictive SDK ⚙️
+## About Predictive SDK ⚙️
 
-Predictive Keyboard SDK is the backbone of our Virtual keyboard SDK.
+Supercharge Your App's Text Processing Capabilities with PredictiveSDK for iOS, iPadOS, watchOS or Android. 
 
-This is a specific SDK for people looking for increasing the reach of it's typing capabilities.
+PredictiveSDK equips developers with an array of powerful features to take their app's performance to the next level. Benefit from advanced functionalities including Autocorrection, Autocompletion, Next Word Prediction, and Swipe Typing, all available in 82 languages. Unleash the potential of effortless text input and optimize the user experience like never before.
 
-Autocorrection, Autocompletition, Next Word Prediction and Swipe typing in 82 languages are the core features that enables the expansion of any Input Technologies to other geographies. 
 
-## Compatibility
+## Installation
+
+**Apple**
+
+PredictiveSDK can be installed with the Swift Package Manager:
+
+`https://github.com/FleksySDK/FleksyCoreSDK-iOS`
+
+
+**Android**
+
+PredictiveSDK can be installed with Maven: 
+
+` maven {
+            url = "https://maven.fleksy.com/maven"
+        }
+`
+
+and adding the dependency:
+
+` dependencies {
+...       
+  // Predictive Keyboard SDK dependency
+  implementation("co.thingthing.fleksylib:fleksylib-release:1.0.5")
+}
+...
+`
+
+
+## Supported Platforms
 
 **Apple Platform**
 
