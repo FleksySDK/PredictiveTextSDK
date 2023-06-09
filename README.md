@@ -8,7 +8,7 @@ PredictiveSDK equips developers with an array of powerful features to take their
 
 ## Installation
 
-**Apple**
+**iOS, iPadOS, watchOS**
 
 PredictiveSDK can be installed with the Swift Package Manager:
 
@@ -19,19 +19,16 @@ PredictiveSDK can be installed with the Swift Package Manager:
 
 PredictiveSDK can be installed with Maven: 
 
-` maven {
-            url = "https://maven.fleksy.com/maven"
-        }
-`
+` maven { url = "https://maven.fleksy.com/maven" } `
 
 and adding the dependency:
 
-` dependencies {
-...       
+` 
+dependencies {
+  ...       
   // Predictive Keyboard SDK dependency
   implementation("co.thingthing.fleksylib:fleksylib-release:1.0.5")
 }
-...
 `
 
 
