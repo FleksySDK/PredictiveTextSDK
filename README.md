@@ -12,7 +12,7 @@ PredictiveSDK equips developers with an array of powerful features to take their
 
 PredictiveSDK can be installed with the Swift Package Manager:
 
-`https://github.com/FleksySDK/FleksyCoreSDK-iOS`
+`https://github.com/FleksySDK/PredictiveSDK-iOS`
 
 
 **Android**
@@ -23,13 +23,13 @@ PredictiveSDK can be installed with Maven:
 
 and adding the dependency:
 
-` 
+``` 
 dependencies {
   ...       
   // Predictive Keyboard SDK dependency
   implementation("co.thingthing.fleksylib:fleksylib-release:1.0.5")
 }
-`
+```
 
 
 ## Supported Platforms
@@ -47,11 +47,19 @@ It also supports `kotlin` and `java`
 
 ## Features
 
+* 🔄 **Autocorrection**: Utilize the PredictiveSDK to automatically correct text. Simply send the text, and the PredictiveSDK will provide the most precise and accurate auto corrections.
+* ⚡ **Autocomplete**: By entering the current text the PredictiveSDK suggests the most probable word.
+* 🔜 **Next Word Prediction**: By providing a text context to the PredictiveSDK, it has the ability to suggest the most likely next word or even an appropiate emoji.
+* ⏺️ **Learning**: You can input words and sentences to be learned by the PredictiveSDK. Once learned, it will have the capability to auto-correct, predict and recognize them through swipe gestures. 
+* 👆 **Swipe Typing**: Once you incorporate your custom geometry layout into the PredictiveSDK, it becomes capable of identifying swiped words. You can achieve this by sending (x,y) positions of the swiped trajectory to the PredictiveSDK.
+
+##  Getting Started
+
 // TODO
 
 ##  Integration
 
-Using the Predictive Keyboard SDK you can add Autocorrection, Next word prediction and Swipe typing to your apps and custom keyboards.
+Using the Predictive SDK you can add Autocorrection, Next Word Prediction and Swipe typing to your apps and custom keyboards.
 
 | Folder | Description |
 | --- | --- |
