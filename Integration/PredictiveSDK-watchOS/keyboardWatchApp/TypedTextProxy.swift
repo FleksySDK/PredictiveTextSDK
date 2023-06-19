@@ -39,14 +39,14 @@ class TypedTextProxy: ObservableObject {
         }
     }
     
-    private var coreSDKInteractor: CoreSDKInteractor?
+    private var coreSDKInteractor: PredictiveSDKInteractor?
     
     init() {
         loadNextWordPrediction()
     }
     
-    func reloadCoreSDK(layout: KeyboardLayout) {
-        self.coreSDKInteractor = CoreSDKInteractor(layout: layout)
+    func reloadPredictiveSDK(layout: KeyboardLayout) {
+        self.coreSDKInteractor = PredictiveSDKInteractor(layout: layout)
         loadNextWordPrediction()
     }
     

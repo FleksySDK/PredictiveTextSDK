@@ -62,7 +62,7 @@ extension Keyboard {
             let size = geometry.size
             if size != lastSize {
                 layout.distributeKeys(availableSize: size)
-                textProxy.reloadCoreSDK(layout: layout)
+                textProxy.reloadPredictiveSDK(layout: layout)
                 lastSize = size
             }
             return layout.rows
