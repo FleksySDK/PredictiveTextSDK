@@ -53,9 +53,6 @@ It also supports `kotlin` and `java`
 * ⏺️ **Learning**: You can input words and sentences to be learned by the PredictiveSDK. Once learned, it will have the capability to auto-correct, predict and recognize them through swipe gestures. 
 * 👆 **Swipe Typing**: Once you incorporate your custom geometry layout into the PredictiveSDK, it becomes capable of identifying swiped words. You can achieve this by sending (x,y) positions of the swiped trajectory to the PredictiveSDK.
 
-##  Getting Started
-
-// TODO
 
 ##  Integration
 
