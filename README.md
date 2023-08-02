@@ -31,6 +31,11 @@ dependencies {
 }
 ```
 
+**Unity**
+
+The PreditiveSDK is provided as a binary package inside the folder `Integration/PredictiveSDK-Unity/fleksypredictionsdk.unitypackage`. Just add this package as you would do with any other Unity custom package and you'll be able to use our PredictionSDK in your Unity projects targeting Android (more platforms will follow soon).
+
+You can find a sample project with a guide that will follow you through the first steps to use our SDK using OpenXR that will allow you to test our technology in a OpenXR compatible device, like the Meta Quest 2.
 
 ## Supported Platforms
 
@@ -44,6 +49,9 @@ dependencies {
 
 It also supports `kotlin` and `java`
 
+**Unity platform**
+
+`Android API 26`
 
 ## Features
 
