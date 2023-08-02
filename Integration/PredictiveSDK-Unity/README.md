@@ -13,10 +13,12 @@ The SampleUnityProject is a really simple Unity project where we followed the ma
     3.1 At the start of your main class, you must initialize the FKCoreXR.
 
     ```
-    fKCoreXR = transform.Find("/_FKCoreXR").GetComponentInChildren<FKCoreXR>(); // Indicate the licenseKey and the licenseSecret
+    fKCoreXR = transform.Find("/_FKCoreXR").GetComponentInChildren<FKCoreXR>();
 
-    fKCoreXR.StartFleksySDK("xxxxxxxxx-xxxx-xxxx-xxxxxx-xxxx", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"); // Indicate the receiver of the FKCoreXR responses.
+    // Indicate the licenseKey and the licenseSecret
+    fKCoreXR.StartFleksySDK("xxxxxxxxx-xxxx-xxxx-xxxxxx-xxxx", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
 
+    // Indicate the receiver of the FKCoreXR responses.
     fKCoreXR.setListener(this);
     ```
 
