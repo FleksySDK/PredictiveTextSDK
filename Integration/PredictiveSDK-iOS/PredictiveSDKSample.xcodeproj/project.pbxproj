@@ -559,7 +559,7 @@
 			repositoryURL = "https://github.com/FleksySDK/PredictiveSDK-iOS";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.4.0;
+				minimumVersion = 1.5.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
