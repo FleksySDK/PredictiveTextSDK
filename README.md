@@ -41,7 +41,7 @@ You can find a sample project with a guide that will follow you through the firs
 
 **Apple Platform**
 
-`iOS 12` , `Mac Catalyst 14` and `watchOS7`
+`iOS 13` , `Mac Catalyst 14` and `watchOS7`
 
 **Android Platform**
 
