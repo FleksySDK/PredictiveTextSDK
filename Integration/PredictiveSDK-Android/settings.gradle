@@ -20,5 +20,5 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "FleksyCoreSDKSample"
+rootProject.name = "Fleksy Predictive SDK Sample"
 include ':app'
